@@ -1,0 +1,48 @@
+<div class="form-container mat-elevation-z5">
+    <h1>Adat Létrehozás</h1>
+    <form #form="ngForm" (submit)="onSubmit(form)">
+        <input type="hidden" name="id" #id="ngModel" [(ngModel)]="service.formData.id">
+        <mat-form-field>
+            <input matInput name="fullName" #fullName="ngModel" [(ngModel)]="service.formData.fullName" placeholder="Név" required/>
+            <mat-error *ngIf="fullName?.errors?.['required']">Add meg az Ital nevét!</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput name="price" #price="ngModel" [(ngModel)]="service.formData.price" placeholder="Ár" required/>
+            <mat-error *ngIf="price?.errors?.['required']">Add meg az Ital árát!</mat-error>
+
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput name="type" 
+            #type="ngModel" [(ngModel)]="service.formData.type" 
+            placeholder="Típus" 
+            required
+            type="text"
+            />
+            
+
+
+            <mat-error *ngIf="type?.errors?.['required']">Add meg az Ital típusát! (pl: vodka, whiskey, bor)</mat-error>
+
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput name="alc_percent" #alc_percent="ngModel" [(ngModel)]="service.formData.alc_percent" placeholder="Alkohol százalék" type="number" required/>
+            <mat-error *ngIf="alc_percent?.errors?.['required']">Add meg az Ital alkohol százalékát!</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput name="img_url" #img_url="ngModel" [(ngModel)]="service.formData.img_url" placeholder="Kép URL" required/>
+            <mat-error *ngIf="img_url?.errors?.['required']">Add meg a használni kívánk kép linkjét!</mat-error>
+        </mat-form-field>
+
+    
+        <div class="center margin-top">
+            <button mat-raised-button color="primary" type="submit" name="submit">
+                Létrehoz
+            </button>
+        </div>
+    </form>
+</div>
+

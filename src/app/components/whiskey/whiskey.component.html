@@ -1,0 +1,15 @@
+
+ <div fxLayout="row wrap" fxLayoutGap="16px grid" class="content" *ngFor="let card of Italok">
+    <mat-card class="mat-elevation-z4">
+
+      <mat-card-header>
+        <mat-card-title>
+          {{card.fullName}}
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-footer>
+        Ára: {{card.price}} Ft
+      </mat-card-footer>
+      <img mat-card-image src="{{card.img_url}}">
+    </mat-card>
+  </div>

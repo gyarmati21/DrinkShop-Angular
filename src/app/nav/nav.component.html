@@ -1,0 +1,54 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/home">Főoldal</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/borok">Borok</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/vodka">Vodkák</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/palinka">Pálinkák</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/whiskey">Whiskeyk</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/admin-menu">Admin Menü</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      
+
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      
+      <span>Drink Shop</span>
+      <button class="jobbra" mat-button [matMenuTriggerFor]="userMenu" *ngIf="authService.currentUser$ | async as user; else loginButton">
+        <mat-icon>account_circle</mat-icon>
+        {{user.displayName}}
+        <mat-icon>expand_more</mat-icon>
+      </button>
+      
+        <ng-template #loginButton >
+          <button class="jobbra" mat-button routerLink="login">
+            <mat-icon>login</mat-icon>
+            Login
+          </button>
+        </ng-template>
+        <mat-menu #userMenu="matMenu">
+          <button class="leugroMenu" mat-menu-item (click)="logout()">Kilépés</button>
+          <button class="leugroMenu" mat-menu-item><a  target=”_blank” style="text-decoration: none; color:black" href="https://cdn.discordapp.com/attachments/972155366639038484/972915605055344720/construction_meme.png">Kosár</a></button>
+        </mat-menu>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

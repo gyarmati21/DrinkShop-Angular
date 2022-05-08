@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "drinkshop-p": {
+      "hosting": {
+        "DrinkShop": [
+          "drinkshop-p"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "drinkshop-p"
+  }
+}

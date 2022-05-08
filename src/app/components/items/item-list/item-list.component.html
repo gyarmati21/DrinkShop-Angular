@@ -1,0 +1,27 @@
+<div class="container">
+
+    <table mat-table>
+        <thead>
+            <th>Név</th>
+            <th>Ár</th>
+            <th>Típus</th>
+            <th>Alkohol</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of list">
+                <td (click)="onEdit(emp)">{{emp.fullName}}</td>
+                <td (click)="onEdit(emp)">{{emp.price}} Ft</td>
+                <td (click)="onEdit(emp)">{{emp.type}}</td>
+                <td (click)="onEdit(emp)">{{emp.alc_percent}}%</td>
+                <td><button mat-raised-button  (click)="onDelete(emp.id)" >
+                   <mat-icon class="white-icon">delete</mat-icon>
+                    Törlés
+                </button></td>
+    
+            </tr>
+    
+        </tbody>
+    </table>
+</div>
+
