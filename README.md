@@ -11,7 +11,7 @@ Előre is köszi, valamint kellemes javítást kívánok :)
 
 
 <details>
-  <summary>Egy kis segítség</summary>
+  <summary>Egy kis segítség:</summary>
   
   
   Ami a javításban nem 100% egyértelmű és lehet nem tudnád kifejteni csak a kódból:
