@@ -8,8 +8,14 @@ Ha leosztályoztad akkor nagyon örülnék neki ha a pontszámot megosztanád ve
 
 Előre is köszi, valamint kellemes javítást kívánok :)
 
+
+
 <details>
   <summary>Spoiler warning</summary>
+  
+  
+  Ami a javításban nem 100% egyértelmű és lehet nem tudnád kifejteni csak a kódból:
+    - Amikor CRUD-ot teszteled az Admin Menü oldalon akkor Updatelni úgy tudod a rekordokat hogy az alatta lévő táblázatba kattintasz.
   
   PS: Ha nem teljesen egyértelmű akkor leírom: A választott témám az Italdiszkont volt.
   
