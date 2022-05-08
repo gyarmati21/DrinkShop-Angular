@@ -7,3 +7,15 @@ Ha leosztályoztad akkor nagyon örülnék neki ha a pontszámot megosztanád ve
   - Discord azonosítóm: Patrik_21#5592
 
 Előre is köszi, valamint kellemes javítást kívánok :)
+
+<details>
+  <summary>Spoiler warning</summary>
+  
+  PS: Ha nem teljesen egyértelmű akkor leírom: A választott témám az Italdiszkont volt.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+  
+</details>
+
