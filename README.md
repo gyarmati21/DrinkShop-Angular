@@ -13,9 +13,6 @@ Előre is köszi, valamint kellemes javítást kívánok :)
   
   PS: Ha nem teljesen egyértelmű akkor leírom: A választott témám az Italdiszkont volt.
   
-  ```javascript
-  console.log("I'm a code block!");
-  ```
   
 </details>
 
