@@ -15,7 +15,7 @@ Előre is köszi, valamint kellemes javítást kívánok :)
   
   
   Ami a javításban nem 100% egyértelmű és lehet nem tudnád kifejteni csak a kódból:
-    - Amikor CRUD-ot teszteled az Admin Menü oldalon akkor Updatelni úgy tudod a rekordokat hogy az alatta lévő táblázatba kattintasz.
+    - Amikor CRUD-ot teszteled az Admin Menü oldalon akkor Updatelni úgy tudod a rekordokat hogy az alatta lévő táblázatba kattintasz és az vissza viszi az adatokat a formba, amit majd értelemszerűen ott kell átírnod és újra lefuttatnod.
   
   PS: Ha nem teljesen egyértelmű akkor leírom: A választott témám az Italdiszkont volt.
   
