@@ -88,7 +88,11 @@ Előre is köszi, valamint kellemes javítást kívánok :)
   <summary>Pontszám:</summary>
   
   
-  Én magamnak elég szigorúan 26 pontot számoltam úgy hogy az utolsó szubjektív 6 pontból nullát adtam magamnak, nem kell így értékelned csak ha valahol ekörül van az adott pontszámod az utolsó 6 pont nélkül akkor tudd hogy egész pontosan adtad meg. És ha lehetséges akkor mégegyszer kérném hogy írd meg nekem valamelyik platformon az értékelés eredményét, megköszönném valamint lehetséges hogy én is javítottam a tiéd. További szép napot és kellemes nyári szünetet!
+  Én magamnak elég szigorúan 26 pontot számoltam úgy hogy az utolsó szubjektív 6 pontból nullát adtam magamnak, nem kell így értékelned csak ha valahol ekörül van az adott pontszámod az utolsó 6 pont nélkül akkor tudd hogy egész pontosan adtad meg. 
+  És ha lehetséges akkor mégegyszer kérném hogy írd meg nekem valamelyik platformon az értékelés eredményét, megköszönném valamint lehetséges hogy én is javítottam a tiéd. 
+  Valamint ha bármi kérdés van, valami a fenti pontozási segédlet ellenére sem egyértelmű akkor Discordon szinte mindig elérhető vagyok nyugodtan írj rám.
+  
+  További szép napot és kellemes nyári szünetet!
   
   
 </details>
