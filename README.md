@@ -22,7 +22,7 @@ Előre is köszi, valamint kellemes javítást kívánok :)
   
 </details>
 
-##Pontszám számítási segédlet:
+## Pontszám számítási segédlet:
 
 1. Fordítási hiba nincs (1p)
     - Szerintem nincs, ezt au F12 megnyomásával tudod nézni hogy találsz-e ott errort.
