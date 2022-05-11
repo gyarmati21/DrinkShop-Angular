@@ -25,7 +25,7 @@ Előre is köszi, valamint kellemes javítást kívánok :)
 Pontszám számítási segédlet:
 
 1. Fordítási hiba nincs (1p)
-  - Szerintem nincs, ezt au F12 megnyomásával tudod nézni hogy találsz-e ott errort.
+    - Szerintem nincs, ezt au F12 megnyomásával tudod nézni hogy találsz-e ott errort.
 
 2. Futtatási hiba nincs (1p)
   - Szintén, szerintem nincs, ha esetleg valamit találsz a weboldalon ami nem működik akkor nyugodtan vond le a pontot.
