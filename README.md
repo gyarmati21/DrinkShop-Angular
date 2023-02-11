@@ -98,3 +98,6 @@ Előre is köszi, valamint kellemes javítást kívánok :)
 
 
 </details>
+
+## Készítette:
+- [Gyarmati Patrik](https://github.com/gyarmati21)
