@@ -84,20 +84,5 @@ Előre is köszi, valamint kellemes javítást kívánok :)
 20. Szubjektív pontozás a projekt egészére vonatkozólag (mennyire fedi le a projekt a témakört (mennyire kapcsolódik hozzá), mennyi lehet a befektetett energia a projektben)
     - Ez teljesen rajtad áll, remélem eléggé lefedi az Italdiszkont témakört a weboldalam, a befektetett energia elég sok volt, de ha te is megcsináltad akkor lehet egyet értesz velem hogy nem volt valami könnyű, a weboldalon minden saját, nem kölcsönöztem sehonnan sem semmi design elemet, mindent materiallal és css-el oldottam meg. 
 
-  <details>
-  <summary>Pontszám:</summary>
-
-
-  Én magamnak elég szigorúan 26 pontot számoltam úgy hogy az utolsó szubjektív 6 pontból nullát adtam magamnak, nem kell így értékelned csak ha valahol ekörül van az adott pontszámod az utolsó 6 pont nélkül akkor tudd hogy egész pontosan adtad meg. 
-
-  És ha lehetséges akkor mégegyszer kérném hogy írd meg nekem valamelyik platformon az értékelés eredményét, megköszönném valamint lehetséges hogy én is javítottam a tiéd. 
-
-  Valamint ha bármi kérdés van, valami a fenti pontozási segédlet ellenére sem egyértelmű akkor Discordon szinte mindig elérhető vagyok nyugodtan írj rám.
-
-  További szép napot és sikeres vizsgaidőszakot! :)
-
-
-</details>
-
 ## Készítette:
 - [Gyarmati Patrik](https://github.com/gyarmati21)
